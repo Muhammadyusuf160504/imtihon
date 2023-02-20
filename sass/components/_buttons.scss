@@ -1,0 +1,84 @@
+.header-btn {
+    width: 22rem;
+    height: 7rem;
+    border: 0.2rem solid $title-color;
+    background-color: inherit;
+    border-radius: 0.5rem;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    @include responsive(m-tablet) {
+        display: none;
+    }
+}
+.burger-btn {
+    display: none;
+    @include responsive(m-tablet) {
+        display: block;
+    }
+}
+.site-btn {
+    width: 43.8rem;
+    height: 11.8rem;
+    left: 12.9rem;
+    top: 67.5rem;
+    border-radius: 15px;
+    font-size: 3.6rem;
+    line-height: 1.5;
+    color: $white-color;
+    background-color: $title-color;
+    margin-bottom: 5.6rem;
+    @include responsive(tablet) {
+        width: 29.2rem;
+        height: 8rem;
+        left: 2.9rem;
+        top: 49.8rem;
+        border-radius: 5px;
+        font-size: 2.4rem;
+        line-height: 1.5;
+    }
+    @include responsive(phone) {
+        height: 60px;
+        width: 289px;
+        left: 16px;
+        top: 606px;
+        border-radius: 5px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.5;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+.main-btn {
+    width: 21.8rem;
+    height: 6rem;
+    border-radius: 5px;
+    background-color: $title-color;
+    color: $white-color;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.pricing-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 240px;
+    border-radius: 5px;
+    h4 {
+        color: $title-color;
+    }
+    .pricing-btn_text {
+        color: $p-color;
+    }
+}
+.input-btn {
+    width: 264px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: $title-color;
+    color: $white-color;
+}
